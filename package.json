@@ -1,0 +1,29 @@
+{
+  "name": "jsonresume-theme",
+  "version": "0.0.1",
+  "description": "Private Resume theme",
+  "main": "index.js",
+  "scripts": {
+    "start": "resume serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jsonresume"
+  ],
+  "repository": "",
+  "author": "Francis Ifeanyi Okonkwo",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.6.14",
+    "less": "^2.5.3",
+    "lodash.template": "^3.6.1",
+    "moment": "^2.10.6",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.3",
+    "resume-cli": "^0.4.8",
+    "resume-schema": "0.0.16"
+  },
+  "devDependencies": {
+    "gulp-babel": "^5.1.0"
+  }
+}

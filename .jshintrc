@@ -1,0 +1,22 @@
+//https://github.com/jshint/jshint/blob/master/examples/.jshintrc
+{
+  "node": true,
+  "multistr": true,
+  "indent": 2,
+  "globalstrict": true,
+  "esnext": true,
+
+  "browser": true,
+  "browserify": true,
+  "jquery": true,
+  "node": true,
+
+  "globals" : {
+    "describe": false,
+    "it": false,
+    "before": false,
+    "beforeEach": false,
+    "after": false,
+    "afterEach": false
+  }
+}
